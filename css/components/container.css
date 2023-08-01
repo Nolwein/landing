@@ -1,0 +1,21 @@
+body, .container{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
